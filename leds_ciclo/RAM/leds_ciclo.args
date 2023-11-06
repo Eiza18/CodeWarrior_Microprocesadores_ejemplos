@@ -1,0 +1,34 @@
+"./Generated_Code/pinfoto_c.obj"
+"./Generated_Code/Vectors_c.obj"
+"./Generated_Code/TI1_c.obj"
+"./Generated_Code/SERIAL_c.obj"
+"./Generated_Code/LED4_c.obj"
+"./Generated_Code/LED3_c.obj"
+"./Generated_Code/LED2_c.obj"
+"./Generated_Code/LED1_c.obj"
+"./Generated_Code/LCD3_c.obj"
+"./Generated_Code/LCD2_c.obj"
+"./Generated_Code/LCD1_c.obj"
+"./Generated_Code/EInt1_c.obj"
+"./Generated_Code/DATO_c.obj"
+"./Generated_Code/Cpu_c.obj"
+"./Generated_Code/CLOCK_c.obj"
+"./Project_Settings/Startup_Code/startcf_c.obj"
+"./Sources/main_c.obj"
+"./Sources/leds_c.obj"
+"./Sources/Events_c.obj"
+-sym full
+-msgstyle parseable
+-proc 52233
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-nostdlib
+"$(ProjDirPath)/Project_Settings/Linker_Files/RAM.lcf"
+-m __startup
+-L"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/lib"
+-application
+-map
+-map keep
+-srec
+-sreclength 252
+-sreceol dos
+-w on

@@ -1,0 +1,108 @@
+
+
+#>00000400          ___heap_size (linker command file)
+#>00000400          ___stack_size (linker command file)
+
+# .ipsbar
+
+# .interrupts
+#>00000000          ___VECTOR_RAM (linker command file)
+  00000000 00000300 .vectortable _InterruptVectorTable	(Vectors_c.obj)
+
+# .cfmprotect
+  00000400 00000018 .cfmconfig _cfm	(Vectors_c.obj)
+
+# .text
+  00000420 000000A8 .text   TI1_Init	(TI1_c.obj)
+  000004C8 0000002C .text   TI1_Interrupt	(TI1_c.obj)
+  000004F4 00000026 .text   SERIAL_SendChar	(SERIAL_c.obj)
+  0000051A 0000004C .text   SERIAL_Init	(SERIAL_c.obj)
+  00000566 0000002C .text   EInt1_Interrupt	(EInt1_c.obj)
+  00000592 00000014 .text   Cpu_Interrupt	(Cpu_c.obj)
+  000005A6 00000024 .text   Cpu_INT_SCM_SWTIInterrupt	(Cpu_c.obj)
+  000005CA 00000066 .text   __initialize_hardware	(Cpu_c.obj)
+  00000630 0000038A .text   PE_low_level_init	(Cpu_c.obj)
+  000009BA 00000008 .text   __initialize_system	(startcf_c.obj)
+  000009C2 00000056 .text   __copy_rom_section	(startcf_c.obj)
+  00000A18 00000046 .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  00000A5E 00000004 .text   _ExitProcess	(startcf_c.obj)
+  00000A62 0000014E .text   clear_mem	(startcf_c.obj)
+  00000BB0 0000009A .text   _startup	(startcf_c.obj)
+  00000C4A 0000005E .text   main	(main_c.obj)
+  00000CA8 00000274 .text   Transmision2	(leds_c.obj)
+  00000F1C 00000008 .text   Cpu_OnCoreWatchdogINT	(Events_c.obj)
+  00000F24 0000001C .text   EInt1_OnInterrupt	(Events_c.obj)
+  00000F40 000000EC .text   TI1_OnInterrupt	(Events_c.obj)
+  0000102C 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+  00001038 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  00001054 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  00001080 00000009 .rodata @27	(main_c.obj)
+  00001089 00000002 .rodata @29	(main_c.obj)
+  0000108B 00000008 .rodata @73	(leds_c.obj)
+#>00001094          ___ROM_AT (linker command file)
+#>00001094          ___DATA_ROM (linker command file)
+
+# .data
+#>20000000          ___DATA_RAM (linker command file)
+#>20000000          __exception_table_start__ (linker command file)
+# Exception index
+  20000000 00000000         Exception Table Index	()
+#>20000000          __exception_table_end__ (linker command file)
+#>20000000          ___sinit__ (linker command file)
+# Linker generated symbols
+  20000000 00000004         static initializer	(linker generated)
+#>20000004          ___DATA_START (linker command file)
+#>20000004          ___DATA_END (linker command file)
+#>20000004          __SDATA_START (linker command file)
+#>20000004          __SDATA_END (linker command file)
+#>20000004          __SDA_BASE (linker command file)
+
+# .bss
+#>20000004          __START_SBSS (linker command file)
+#>20000004          __END_SBSS (linker command file)
+#>20000004          __START_BSS (linker command file)
+  20000004 00000002 .bss    SerFlag	(SERIAL_c.obj)
+  20000006 00000001 .bss    @LOCAL@Transmision2__FUc@estado@1	(leds_c.obj)
+  20000007 00000008 .bss    @LOCAL@Transmision2__FUc@lectura@2	(leds_c.obj)
+  2000000F 00000001 .bss    @LOCAL@Transmision2__FUc@b@3	(leds_c.obj)
+  20000010 00000002 .bss    @LOCAL@Transmision2__FUc@delay1@4	(leds_c.obj)
+  20000012 00000002 .bss    @LOCAL@TI1_OnInterrupt__Fv@i	(Events_c.obj)
+  20000014 00000002 .bss    @LOCAL@TI1_OnInterrupt__Fv@a@0	(Events_c.obj)
+  20000016 00000002 .bss    @LOCAL@TI1_OnInterrupt__Fv@dato@2	(Events_c.obj)
+  20000018 00000001 .bss    @LOCAL@TI1_OnInterrupt__Fv@dato1@3	(Events_c.obj)
+  20000019 00000001 .bss    banderaTimer	(Events_c.obj)
+  2000001C 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>20000020          __END_BSS (linker command file)
+#>20000000          ___RAMBAR (linker command file)
+#>00008000          ___RAMBAR_SIZE (linker command file)
+#>00000000          ___FLASH_ADDRESS (linker command file)
+#>00040000          ___FLASH_SIZE (linker command file)
+#>40000000          ___IPSBAR (linker command file)
+#>20007FFC          ___SP_AFTER_RESET (linker command file)
+#>20000020          ___HEAP_START (linker command file)
+#>20000420          ___HEAP_END (linker command file)
+#>20000420          ___SP_END (linker command file)
+#>20000820          ___SP_INIT (linker command file)
+#>20000420          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>20000020          ___heap_addr (linker command file)
+#>00000400          ___heap_size (linker command file)
+#>20000820          __SP_INIT (linker command file)
+#>00001098          _romp_at (linker command file)
+
+# .romp
+#>00001098          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  00000000 00000000 00000300 .interrupts interrupts
+  00000420 00000420 00000C74 .text      code
+  20000000 00001094 00000004 .data      data
+  20000004 20000004 0000001C .bss       data
+  20000020 00001098 00000018 .romp      data
+  00000400 00000400 00000018 .cfmprotect cfmprotrom
+  40000000 40000000 00000000 .ipsbar    ipsbar
+
+# Link start time: Mon Jun 26 17:11:38 2023
+# Link end time: Mon Jun 26 17:11:38 2023

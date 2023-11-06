@@ -1,0 +1,59 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/LCD1.c" FileDate="2023-06-19, 17:22:39" FileAge="1687213359216" FileType="45637" CompNumb="39" />
+      <File Name="Documentation/leds_ciclo_Settings.xml" FileDate="2023-06-26, 18:11:28" FileAge="1687821088837" FileType="3072" />
+      <File Name="Generated_Code/LED4.h" FileDate="2023-06-05, 18:33:56" FileAge="1686008036970" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/LED4.c" FileDate="2023-06-05, 18:33:57" FileAge="1686008037000" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/LED3.h" FileDate="2023-06-05, 18:33:56" FileAge="1686008036957" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-06-26, 18:11:28" FileAge="1687821088476" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/pinfoto.h" FileDate="2023-06-09, 17:26:20" FileAge="1686349580143" FileType="45637" CompNumb="35" />
+      <File Name="Generated_Code/LED3.c" FileDate="2023-06-05, 18:33:56" FileAge="1686008036964" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2023-06-26, 18:11:28" FileAge="1687821088493" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/pinfoto.c" FileDate="2023-06-09, 17:26:20" FileAge="1686349580154" FileType="45637" CompNumb="35" />
+      <File Name="Project_Settings/Linker_Files/RAM.lcf" FileDate="2023-06-08, 12:39:16" FileAge="1686245956214" FileType="8" CompNumb="25" />
+      <File Name="Generated_Code/LED2.h" FileDate="2023-06-05, 18:33:56" FileAge="1686008036795" FileType="45637" CompNumb="10" />
+      <File Name="Sources/main.c" FileDate="2023-06-21, 13:11:57" FileAge="1687371117366" FileType="128" />
+      <File Name="Generated_Code/LED2.c" FileDate="2023-06-05, 18:33:56" FileAge="1686008036930" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2023-06-19, 17:22:39" FileAge="1687213359438" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/LED1.h" FileDate="2023-05-29, 16:57:35" FileAge="1685397455040" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/CLOCK.h" FileDate="2023-06-08, 18:24:18" FileAge="1686266658914" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/LED1.c" FileDate="2023-05-29, 16:57:35" FileAge="1685397455047" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/CLOCK.c" FileDate="2023-06-08, 18:24:18" FileAge="1686266658923" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/TI1.h" FileDate="2023-06-26, 18:11:28" FileAge="1687821088375" FileType="45637" CompNumb="27" />
+      <File Name="Sources/Events.h" FileDate="2023-06-19, 17:22:39" FileAge="1687213359537" FileType="131328" />
+      <File Name="Project_Settings/Debugger/MCF52233.cfg" FileDate="2023-06-08, 12:39:16" FileAge="1686245956178" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2023-05-29, 16:43:32" FileAge="1685396612361" FileType="45637" />
+      <File Name="Generated_Code/TI1.c" FileDate="2023-06-26, 18:11:28" FileAge="1687821088428" FileType="45637" CompNumb="27" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2023-05-29, 16:43:32" FileAge="1685396612373" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2023-06-21, 12:33:07" FileAge="1687368787826" FileType="131328" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2023-05-29, 16:43:32" FileAge="1685396612367" FileType="45637" />
+      <File Name="Project_Settings/Debugger/MCF52233.mem" FileDate="2023-05-29, 16:27:08" FileAge="1685395628273" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2023-05-29, 16:43:32" FileAge="1685396612353" FileType="45637" />
+      <File Name="Generated_Code/LCD3.h" FileDate="2023-06-19, 17:22:39" FileAge="1687213359196" FileType="45637" CompNumb="41" />
+      <File Name="Generated_Code/DATO.h" FileDate="2023-06-08, 17:55:39" FileAge="1686264939585" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/LCD3.c" FileDate="2023-06-19, 17:22:39" FileAge="1687213359186" FileType="45637" CompNumb="41" />
+      <File Name="Documentation/leds_ciclo.txt" FileDate="2023-06-19, 17:22:41" FileAge="1687213361459" FileType="3072" />
+      <File Name="Project_Settings/Debugger/MCF52233.xml" FileDate="2023-05-29, 16:27:08" FileAge="1685395628276" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/DATO.c" FileDate="2023-06-08, 18:24:18" FileAge="1686266658905" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/SERIAL.h" FileDate="2023-06-08, 14:03:35" FileAge="1686251015442" FileType="45637" CompNumb="31" />
+      <File Name="Generated_Code/LCD2.h" FileDate="2023-06-19, 17:22:39" FileAge="1687213359209" FileType="45637" CompNumb="40" />
+      <File Name="Generated_Code/EInt1.h" FileDate="2023-06-06, 17:10:00" FileAge="1686089400730" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/SERIAL.c" FileDate="2023-06-26, 18:11:28" FileAge="1687821088451" FileType="45637" CompNumb="31" />
+      <File Name="Generated_Code/LCD2.c" FileDate="2023-06-19, 17:22:39" FileAge="1687213359203" FileType="45637" CompNumb="40" />
+      <File Name="Generated_Code/EInt1.c" FileDate="2023-06-06, 17:10:00" FileAge="1686089400727" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/LCD1.h" FileDate="2023-06-19, 17:22:39" FileAge="1687213359243" FileType="45637" CompNumb="39" />
+      <File Name="Documentation/leds_ciclo_SIGNALS.txt" FileDate="2023-06-26, 18:11:28" FileAge="1687821088600" FileType="3072" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>44</CodeGenReference>
+</CodeGenerationInfo>
